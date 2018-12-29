@@ -22,7 +22,7 @@ function installPM2() {
 // transfers local project to the remote server
 function transferProjectToRemote(failed, successful) {
   return ssh.putDirectory(
-    '../hackathon-starter',
+    '../MiPi', //Corrected File Path 
     '/home/ubuntu/hackathon-starter-temp',
     {
       recursive: true,

@@ -9,6 +9,7 @@
 // other navbar variations.
 
 .navbar {
+ 
   position: relative;
   min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: $navbar-margin-bottom;
@@ -49,6 +50,7 @@
 
 .navbar-collapse {
   overflow-x: visible;
+  background-color: #F0F0;
   padding-right: $navbar-padding-horizontal;
   padding-left:  $navbar-padding-horizontal;
   border-top: 1px solid transparent;
